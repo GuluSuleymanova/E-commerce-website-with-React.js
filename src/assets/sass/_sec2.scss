@@ -1,0 +1,104 @@
+.sec2{
+    padding: 60px 0;
+    position: relative;
+
+    // .kenburns-top{animation:kenburns-top 5s linear infinite alternate both}
+
+    // @keyframes kenburns-top{0%{background-size: 100% translateY(0);transform-origin:50% 16%}
+    // 100%{background-size: 105% translateY(-15px);transform-origin:top; overflow-x: hidden;}}
+
+     .container{
+         max-width: 97%;
+         margin: auto;
+     }
+
+
+    .bg {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px ;
+        border-radius: 20px;
+        padding: 35px;
+        display: flex;
+        align-items: center;
+        //animation: kenburns-top 5s linear infinite alternate forwards;
+        //transition: all 2s ease;
+
+
+        // @keyframes kenburns-top {
+
+        //     0%{
+        //         background-size: cover;
+        //         //transform: translateY(0);
+        //         transform-origin:50% 16%;
+        //         transition:all 2s ease-in-out;
+        //         //transform: scale(1);
+  
+        //     }
+        //     100%{
+        //        background-size: 110%;
+        //         //transform: translateY(-15px);
+        //         transform-origin:top;
+        //         transition:all 2s ease-in-out;
+        //         //transform: scale(1.1);
+        //     }
+            
+        // }
+
+        .content{
+            width: 75%;
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+
+            .title{
+                font-size: 1.3em;
+                font-weight: 500;
+                color: orangered;
+                text-transform: uppercase;
+                padding-bottom: 15px;
+            }
+            .desc{
+                font-size: 25px;
+                color: #000;
+                padding-bottom: 13px;
+
+            }
+            .desc2{
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                //letter-spacing: 2px;
+            }
+
+            .shop{
+
+                background: none;
+                border: 1px solid rgb(10, 207, 214);
+                outline: none;
+                padding: 5px 10px;
+                border-radius: 20px;
+                transition: all 2s ;
+
+
+                &:hover{
+                    background-color: rgb(10, 207, 214);
+                    transition: all 2s;
+
+                }
+            }
+        }
+    }
+
+
+    .bg-img-1{
+        background-image: url('../images/sec2-images/sec2-01.jpg');
+    }
+    .bg-img-2{
+        background-image: url('../images/sec2-images/sec2-2.jpg');
+    }
+    .bg-img-3{
+        background-image: url('../images/sec2-images/sec2-03.jpg');
+    }
+}
+

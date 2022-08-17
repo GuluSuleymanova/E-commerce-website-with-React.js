@@ -1,0 +1,188 @@
+:root{
+--bg:#000;
+}
+
+.aboutsec3{
+padding: 60px 0;
+position: relative;
+overflow: hidden;
+
+.top-container{
+max-width: 96%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.title-top{
+font-family: 'Great Vibes', cursive;
+font-weight: 600;
+padding-bottom: 10px;
+font-size: 2.5rem;
+position: relative;
+display: inline-block;
+letter-spacing: 2px;
+// color: #fff;
+//text-transform: capitalize;
+span{
+color: blueviolet;
+}
+
+}
+
+.card {
+//width: 300px;
+height: 300px;
+transform-style: preserve-3d;
+perspective: 500px;
+border: none;
+background-color: inherit;
+transition: all 3s ease-in-out;
+
+
+}
+
+.face {
+position: absolute;
+color: #fff;
+width: 100%;
+height: 100%;
+overflow: hidden;
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.06);
+transform-style: preserve-3d;
+transition: all 3s ease-in-out;
+backface-visibility: hidden;
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+/* border-right: 1px solid #999;
+border-bottom: 1px solid #999; */
+}
+
+.front-face,
+.back-face {
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: all 3s ease-in-out;
+
+
+}
+
+.profile {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.name {
+letter-spacing: 2px;
+}
+
+.designation {
+font-size: 0.8rem;
+//color: #ddd;
+letter-spacing: 0.8px;
+}
+
+.card:hover .face.front-face {
+transform: rotateY(180deg);
+transition: all 3s ease-in-out;
+
+}
+
+.back-face {
+position: absolute;
+//background: rgba(255, 255, 255, 0.06);
+background: var(--bg);
+transform: rotateY(180deg);
+padding: 20px 30px;
+text-align: center;
+user-select: none;
+transition: all 3s ease-in-out;
+
+
+}
+
+.icon{
+display: flex;
+//flex-direction: column;
+gap:25px;
+
+li{
+position: relative;
+list-style: none;
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+transition: 2s;
+&::before{
+content: '';
+position: absolute;
+inset: 20px;
+box-shadow: 0 0 0 10px var(--clr),
+0 0 0 20px var(--bg),
+0 0 0 22px var(--clr);
+}
+&::after{
+content: '';
+position: absolute;
+inset: 0;
+background: var(--bg);
+transform: rotate(45deg);
+
+}
+
+&:hover{
+z-index: 10000;
+transform: scale(0.75);
+
+&::before{
+inset: 0;
+}
+a{
+font-size: 1.8rem;
+filter: drop-shadow(0 0 20px var(--clr))
+drop-shadow(0 0 40px var(--clr))
+drop-shadow(0 0 60px var(--clr));
+}
+}
+
+
+
+a{
+position: relative;
+text-decoration: none;
+color: var(--clr);
+z-index: 10;
+font-size: 1rem;
+transition: 2s;
+
+
+}
+
+}
+}
+
+
+
+
+.card:hover .face.back-face {
+transform: rotateY(360deg);
+transition: all 3s ease-in-out;
+
+}
+}
+@media(max-width: 991.5px) {
+.col-lg-4 {
+margin-top: 40px;
+margin-bottom: 20px;
+}
+}

@@ -1,0 +1,132 @@
+.top-section{
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+
+    .top-container{
+        max-width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .title-top{
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+        padding-bottom: 10px;
+        font-size: 2.5rem;
+        position: relative;
+        display: inline-block;
+        letter-spacing: 2px;
+        //text-transform: capitalize;
+        span{
+            color: #20e7e0;
+        }
+
+        
+    }
+     .slider-content-top {
+         margin: 20px 0;
+     }
+
+     .top-bg{
+         position: relative;
+        //background-color: white;
+        //width: 100% !important;
+        height:200px !important;
+        background-repeat: no-repeat;
+        background-size: 100%  !important;
+        background-position: center center;
+        //border: .1px solid rgba(163, 163, 163, .5);
+        //box-shadow: 3px 3px 1px 2px rgba(192, 191, 191, 0.5);
+        transition: all 2s ease-in-out;
+        overflow: hidden;
+        //padding: 100px;
+        cursor: pointer;
+        &:hover{
+           background-size: 110%  !important;
+
+           p{
+               visibility: visible !important;
+               transform: translateY(75px) !important;
+               opacity: 1;
+           }
+        } p{
+          border: 1px solid;  
+          font-size: 1.5rem;
+          color: goldenrod;
+          opacity: 0;
+          //visibility: hidden !important;
+          transform: translateY(150px);
+          transition:all 2s;
+          backdrop-filter: blur(15px);
+      }
+    }
+     
+
+    .top-bg-1{
+      background-image: url('../images/home-sec3/img1.jpg');
+    }
+
+    .top-bg-2{
+        background-image: url('../images/home-sec3/img22.jpg');
+      }
+
+      .top-bg-3{
+        background-image: url('../images/home-sec3/img3.3.jpg');
+      }
+
+      .top-bg-4{
+        background-image: url('../images/home-sec3/img4.jfif');
+      }
+
+      .top-bg-5{
+        background-image: url('../images/home-sec3/img5.jpg');
+      }
+
+
+      .slick-slide > div {
+        margin: 0 15px;
+      }
+      .slick-list {
+        margin: 0 -15px;
+      }
+
+      .slick-prev:before{
+        color: #36ede1 !important;
+        font-size: 32px;
+        opacity: 1;
+        border-radius: 2px !important;
+      }
+      .slick-next:before{
+        color: #36ede1 !important;
+        font-size: 32px;
+        opacity: 1;
+      }
+    
+      .slick-prev{
+        position: absolute;
+        top: 50% !important;
+        left: -2% !important;
+        border-radius: none !important;
+        width: 50px;
+        height: 50px;
+        z-index: 1;
+        opacity: 0.5;
+        &:hover{
+            opacity: 1;
+        }
+      }
+      .slick-next{
+        position: absolute;
+        top: 50%;
+        right: -2%;
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+        &:hover{
+            opacity: 1;
+        }
+      }
+    
+}

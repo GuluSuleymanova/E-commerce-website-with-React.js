@@ -1,0 +1,156 @@
+.aboutsec2{
+padding: 60px 0;
+position: relative;
+overflow: hidden;
+background: linear-gradient(to bottom, #000428, #004683);
+//transition: all 3s ease-in-out;
+animation: background-color 10s ease-in-out infinite alternate both;
+//min-height: 100vh;
+
+
+@keyframes background-color{
+0%{background:linear-gradient(120deg, #fae37d, #5a3267, #20668f);}
+25% {
+background: linear-gradient( #291e33, #ac89e7);}
+50%{background:#5c5560}
+100%{background:#654e4e}
+}
+
+
+//opacity: 0.6;
+
+.top-container{
+max-width: 96%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.title-top{
+font-family: 'Great Vibes', cursive;
+font-weight: 600;
+padding-bottom: 10px;
+font-size: 2.5rem;
+position: relative;
+display: inline-block;
+letter-spacing: 2px;
+color: #fff;
+//text-transform: capitalize;
+span{
+color: blueviolet;
+}
+
+
+}
+.card{
+//padding: 35px 50px;
+//margin: 0 20px 30px;
+border-radius: 0 70px 0 70px;
+border: 5px solid #ffc33c;
+border-left: none;
+border-right: none;
+background-color: inherit;
+background: rgba(255, 255, 255, 0.06);
+backface-visibility: hidden;
+//box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-body{
+width: 100%;
+//background-color: black;
+color: rgb(249, 246, 251);
+//border-top-left-radius: 20px;
+//border-bottom-right-radius: 20px;
+
+p{
+font-size: 1rem;
+font-family: "Raleway", sans-serif;
+font-style: italic;
+}
+.icon{
+//display: block;
+i{
+color: #ffc33c!important;
+font-size: 20px;
+width: 30px;
+height: 30px;
+display: block;
+
+//opacity: 1;
+//margin-left: 30px;
+//position: relative;
+//left: 0;
+}
+.left{
+//margin-bottom: 6px;
+//position: absolute;
+top: 5px;
+left: 25px;
+
+}
+
+.right{
+position: absolute;
+//bottom: 85px;
+right: 25px;
+}
+}
+
+}
+.image{
+//backdrop-filter: brightness(50%);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 5px;
+
+.image-box{
+//margin: 8px;
+width: 90px;
+height: 90px;
+overflow: hidden;
+border-radius: 50%;
+transform: scale(1);
+
+
+img{
+width: 100% !important;
+border-radius: 50%;
+transition: all 2s ease;
+
+&:hover{
+transition: all 2s;
+transform: scale(1.1);
+filter: brightness(50%);
+}
+}
+}
+}
+
+.info{
+display: flex;
+justify-content: end;
+flex-direction: column;
+color: #fff;
+//text-align: center;
+.name{
+font-size: 1.2rem;
+font-weight: 600;
+}
+}
+
+
+
+
+
+
+
+
+
+
+.slick-prev,
+.slick-next{
+display: none !important;
+}
+}

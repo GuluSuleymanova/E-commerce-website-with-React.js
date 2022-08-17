@@ -1,0 +1,48 @@
+@import 'headers';
+@import 'light';
+@import 'carousel';
+@import 'sec1';
+@import 'sec2';
+@import 'sec3';
+@import './sec4_product';
+@import './sec6-product';
+@import './collections';
+@import './sec5';
+@import './app';
+@import './page';
+@import './about-sec1';
+@import './about-sec2';
+@import './about-sec3';
+@import './cart';
+@import './contact';
+@import './signin';
+@import './signup';
+@import './homeblog';
+@import './brands';
+@import './footer';
+
+
+
+
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+// .load{
+//     display: flex !important;
+//     justify-content: center !important;
+//     align-items: center !important;
+//     width: 100% !important;
+//     height: 100vh !important;
+//     background-color: #333;
+//     text-align: center;
+// }
+
+.container{
+    max-width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

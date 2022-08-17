@@ -1,0 +1,158 @@
+
+.signin{
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+background-image: url('../images/contact-images/sign.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Raleway', sans-serif;
+
+
+.container{
+    max-width: 96%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    .row{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.card{
+//height: 400px;
+margin: auto;
+margin-top: auto;
+margin-bottom: auto;
+max-width: 550px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+font-family: 'Sofia', cursive;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group{
+width: 100%;
+outline: none;
+box-shadow: none;
+border: none;
+color: black;
+border:0 !important;
+height: 50px;
+margin-bottom: 2rem;
+}
+.input-group-text{
+    //margin: 5px;
+    width: 50px;
+    background-color: #FFC312;
+    //height: 100%;
+    //background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FFC312;
+    //transition: 2s;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+border:none;
+background-color: rgba(255, 255, 255,0.3);
+transition: 2s;
+border-bottom: 2px solid #000;
+
+&::placeholder{
+     color: #fff;
+     transition: 2s;
+}
+
+//transform: scaleX(1.05);
+//border-bottom: 1px solid #FFC312;
+
+}
+
+.remember{
+color: white;
+display: flex;
+align-items: center;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+//margin-left: 15px;
+margin-right: 5px;
+
+&:checked{
+    accent-color: #FFC312;
+}
+
+}
+
+
+
+
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+
+.login_btn{
+margin-top: 2rem;
+color: black;
+background-color: #FFC312;
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.card-footer{
+    padding: 1rem!important;
+}
+
+.links{
+color: white;
+margin-bottom: 10px;
+}
+
+.links a{
+margin-left: 4px;
+color: #fff !important;
+}
+}

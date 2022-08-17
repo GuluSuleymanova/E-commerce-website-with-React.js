@@ -1,0 +1,59 @@
+{
+    "header":{
+        "tel":"+62-334-542-1876",
+        "mail":"safir@domain.com",
+        "signup":"SignUp",
+        "signin":"SignIn",
+        "home":"Home",
+        "shop":"Shop",
+        "collection":"Collection",
+        "blog":"Blog",
+        "about":"About Us",
+        "contact":"Contact us",
+        "search":"Search..."
+
+    },
+    "main-carousel":{
+        "title1":"Jewellery for the feminine in you",
+        "desc1":"take a moment and cherish the grand collection",
+        "button1":"Shop Now",
+        "title2":"New Comings",
+        "desc2":"Amazing Jewellery collection",
+        "title3":"New Arrivals",
+        "desc3":"Highest Quality Displays",
+        "button2":"See Collections",
+        "title4":"New Trending",
+        "desc4":"Fashionable Branded Golds"
+
+    },
+    "home-sec1":{
+        "title1":"Free Delivery",
+        "desc1":"Free shipping over $100 to stores and home",
+        "title2":"Flexible payment",
+        "desc2":"Diffirent finance opitons will be available",
+        "title3":"Naturally derived",
+        "desc3":"Natural & organic beauty products"
+    },
+    "home-sec2":{
+        "title1":"Wonders of color",
+        "desc1":"Green Forest Gems Jewellery",
+        "title2":"New Collection 2022",
+        "desc2":"Queen's set 20% off",
+        "title3":"20% off",
+        "desc3":"The perfect CHOICE of beauty",
+        "button":"Shop Now"
+
+    },
+    "home-sec3":{
+        "title1":"Discover the ",
+        "title11":"Collections",
+        "desc1":"Rings",
+        "desc2":"Earings",
+        "desc3":"Bracelets",
+        "desc4":"Necklaces",
+        "desc5":"Set Accessories"
+        
+        
+    }
+
+}
